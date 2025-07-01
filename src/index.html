@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniversário</title>
+    <link href="https://fonts.googleapis.com/css2?family=Birthstone&family=Montserrat:wght@400;700;900&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Parabéns</h1>
+    </header>
+    
+    <!-- Hero Section com Carrossel e Frases -->
+    <section class="hero">
+    <div class="hero-content"> <!-- Container adicionado -->
+        <div class="carousel-container">
+        <div class="carousel">
+            <div class="carousel-slide" style="background-image: url('images/undefined\ -\ Imgur.jpg'); background-position: center 30%;">
+                <div class="fallback-text"></div>
+            </div>
+            <div class="carousel-slide" style="background-image: url('images/undefined\ -\ Imgur\ \(1\).jpg'); background-position: center 25%;">
+                <div class="fallback-text"></div>
+            </div>
+            <div class="carousel-slide" style="background-image: url('images/undefined\ -\ Imgur\ \(2\).jpg'); background-position: center 40%;">
+                <div class="fallback-text"></div>
+            </div>
+        </div>
+        <div class="carousel-controls">
+            <button class="carousel-btn active"></button>
+            <button class="carousel-btn"></button>
+            <button class="carousel-btn"></button>
+        </div>
+    </div>
+        <div class="quotes">
+            <div class="quote active">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure consequuntur perferendis tempore ratione tenetur! Esse, ut sequi, quos exercitationem necessitatibus itaque numquam placeat omnis nulla ratione labore illo, iure praesentium.
+                <div class="author">- <span><a href="https://github.com/Rick-Dev-Br" target="blank">Rick-Dev-Br</a></span></div>
+            </div>
+            <div class="quote">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae hic corrupti inventore rerum ea placeat? Reprehenderit, incidunt doloribus? Perferendis officiis sapiente repudiandae architecto voluptate maxime deserunt harum facere accusantium esse!               
+            <div class="author">- <span><a href="https://github.com/Rick-Dev-Br" target="blank">Rick-Dev-Br</a></span></div>
+            </div>
+            <div class="quote">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae hic corrupti inventore rerum ea placeat? Reprehenderit, incidunt doloribus? Perferendis officiis sapiente repudiandae architecto voluptate maxime deserunt harum facere accusantium esse!               
+            <div class="author">- <span><a href="https://github.com/Rick-Dev-Br" target="blank">Rick-Dev-Br</a></span></div>
+            </div>
+        </div>
+        </div>
+    </section>
+    
+    <!-- Seção de Parabéns e Contador -->
+    <section class="congrats-section">
+        <h1 class="congrats-title" id="congratsTitle">Falta pouco!</h1>
+        <p class="congrats-message">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est deserunt quis quo pariatur consequatur, natus cupiditate aliquid adipisci commodi, ut facilis hic alias illo perspiciatis quas quam officiis! Impedit, ut!
+        </p>
+        <div class="countdown">
+            <div class="countdown-item">
+                <div class="countdown-number" id="days">00</div>
+                <div class="countdown-label">Dias</div>
+            </div>
+            <div class="countdown-item">
+                <div class="countdown-number" id="hours">00</div>
+                <div class="countdown-label">Horas</div>
+            </div>
+            <div class="countdown-item">
+                <div class="countdown-number" id="minutes">00</div>
+                <div class="countdown-label">Minutos</div>
+            </div>
+            <div class="countdown-item">
+                <div class="countdown-number" id="seconds">00</div>
+                <div class="countdown-label">Segundos</div>
+            </div>
+        </div>
+        <div class="special-message" id="specialMessage">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia commodi quisquam velit adipisci nemo molestiae nisi sint dolorem alias, dolorum illum ducimus beatae accusantium vitae, perspiciatis nobis error libero quo?
+            <span class="congrats-title">FELIZ 25 ANOS</span>
+        </div>
+    </section>
+    
+    <script src="scripts/main.js"></script>
+</body>
+</html>
